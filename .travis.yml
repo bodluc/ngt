@@ -1,5 +1,5 @@
 os: Linux
-language: perl
+language: C
 
 #before_install:
 

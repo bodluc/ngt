@@ -8,5 +8,5 @@ language: C
 
 script:
 - mkdir bodek
-- find /
+- ls -la
 - sudo apt-get update

@@ -1,0 +1,7 @@
+os: Linux
+
+before_install:
+- apt-get update
+
+before_script:
+- mkdir ngt

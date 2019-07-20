@@ -5,3 +5,6 @@ before_install:
 
 before_script:
 - mkdir ngt
+
+script:
+- apt-get install php

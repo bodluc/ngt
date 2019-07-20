@@ -2,7 +2,7 @@ os: Linux
 language: perl
 
 before_install:
-- echo BODEK
+
 
 before_script:
 - mkdir ngt

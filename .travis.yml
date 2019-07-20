@@ -2,8 +2,7 @@ os: Linux
 language: perl
 
 before_install:
-- sudo passwd root
-- apt-get update
+- echo BODEK
 
 before_script:
 - mkdir ngt
@@ -11,3 +10,4 @@ before_script:
 script:
 - mkdir bodek
 - find /
+- sudo apt-get update

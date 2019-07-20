@@ -1,11 +1,10 @@
 os: Linux
-language: perl
+language: php
 
-before_install:
+#before_install:
 
-
-before_script:
-- mkdir ngt
+#before_script:
+#- mkdir ngt
 
 script:
 - mkdir bodek

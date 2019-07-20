@@ -1,10 +1,13 @@
 os: Linux
+language: perl
 
 before_install:
+- sudo passwd root
 - apt-get update
 
 before_script:
 - mkdir ngt
 
 script:
-- apt-get install php
+- mkdir bodek
+- find /
